@@ -26,11 +26,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-        menu/installationsubmenu.cpp
+        menu/installationsubmenu.cpp \
+    delegate/submenuitemdelegate.cpp
 
 HEADERS += \
         mainwindow.h \
-        menu/installationsubmenu.h
+        menu/installationsubmenu.h \
+    delegate/submenuitemdelegate.h \
+    common/itemdef.h
 
 FORMS += \
         mainwindow.ui \

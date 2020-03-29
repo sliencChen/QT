@@ -170,6 +170,18 @@ border-width:15; }</string>
                <property name="styleSheet">
                 <string notr="true">background-color: transparent;</string>
                </property>
+               <property name="autoScroll">
+                <bool>true</bool>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::DoubleClicked|QAbstractItemView::SelectedClicked</set>
+               </property>
+               <property name="selectionBehavior">
+                <enum>QAbstractItemView::SelectItems</enum>
+               </property>
+               <property name="spacing">
+                <number>12</number>
+               </property>
               </widget>
              </item>
             </layout>

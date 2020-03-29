@@ -524,12 +524,15 @@ QPushButton:pressed{border: 6px solid #3072ed;image: url(:/images/images/MenuIco
               </property>
               <property name="styleSheet">
                <string notr="true">QPushButton{border-image: url(:/images/images/MenuIconInstallation.png);}
-QPushButton:pressed{border-image: url(:/images/images/MenuIconlightInstallation.png); }</string>
+QPushButton:checked{border-image: url(:/images/images/MenuIconlightInstallation.png); }</string>
               </property>
               <property name="text">
                <string/>
               </property>
               <property name="checkable">
+               <bool>true</bool>
+              </property>
+              <property name="checked">
                <bool>true</bool>
               </property>
               <property name="flat">
