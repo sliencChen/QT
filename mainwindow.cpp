@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "installationsubmenu.h"
+#include "menu/installationsubmenu.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),

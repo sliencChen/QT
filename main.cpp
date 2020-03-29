@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include "installationsubmenu.h"
+#include "menu/installationsubmenu.h"
 
 int main(int argc, char *argv[])
 {

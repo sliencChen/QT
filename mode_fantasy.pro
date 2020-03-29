@@ -26,15 +26,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    installationsubmenu.cpp
+        menu/installationsubmenu.cpp
 
 HEADERS += \
         mainwindow.h \
-    installationsubmenu.h
+        menu/installationsubmenu.h
 
 FORMS += \
         mainwindow.ui \
-    installationsubmenu.ui
+        menu/installationsubmenu.ui
 
 RESOURCES += \
     images.qrc
